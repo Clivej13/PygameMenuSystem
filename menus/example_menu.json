@@ -1,0 +1,52 @@
+{
+  "menu_name": "Main Menu",
+  "style":"style.json",
+  "title": "Main Menu",
+  "columns": {
+    "count": 2,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "rows": {
+    "count": 2,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "items": [
+    {
+      "name": "Selection",
+      "type": "selection",
+      "text_size": 10,
+      "options": ["One","Two","Three"],
+      "data_location": {
+        "file": "saved_data/input.json",
+        "key": "selection"
+      }
+    },
+    {
+      "name": "Toggle",
+      "type": "toggle",
+      "text_size": 10,
+      "data_location": {
+        "file": "saved_data/input.json",
+        "key": "toggle"
+      }
+    },
+    {
+      "name": "Input",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "next_menu": "input"
+      }
+    },
+    {
+      "name": "Exit",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "next_menu": "exit_confirm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "menu_name": "Input Menu",
+  "style": "style.json",
+    "title": "What text needs to be input",
+  "columns": {
+    "count": 1,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "rows": {
+    "count": 3,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "items": [
+    {
+      "name": "Input text here",
+      "type": "input",
+      "text_size": 10,
+      "data_location": {
+        "file": "saved_data/input.json",
+        "key": "input_menu"
+      }
+    },
+    {
+      "name": "Return",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "return"
+      }
+    },
+    {
+      "name": "Save",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "save"
+      }
+    }
+  ]
+}

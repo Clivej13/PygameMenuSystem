@@ -1,0 +1,33 @@
+{
+  "menu_name": "Exit Confirm",
+  "style": "style.json",
+  "title": "Are you sure you want to quit?",
+  "columns": {
+    "count": 1,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "rows": {
+    "count": 2,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "items": [
+    {
+      "name": "Yes",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "exit"
+      }
+    },
+    {
+      "name": "No",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "game"
+      }
+    }
+  ]
+}

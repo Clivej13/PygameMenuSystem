@@ -1,0 +1,41 @@
+{
+  "menu_name": "Game",
+  "style": "style.json",
+  "title": "Load a Game",
+  "columns": {
+    "count": 1,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "rows": {
+    "count": 3,
+    "scrollable": false,
+    "spacing": 50
+  },
+  "items": [
+    {
+      "name": "Load Game",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "load_game"
+      }
+    },
+    {
+      "name": "New Game",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "game"
+      }
+    },
+    {
+      "name": "Return",
+      "type": "button",
+      "text_size": 10,
+      "function": {
+        "name": "return"
+      }
+    }
+  ]
+}
